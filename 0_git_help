@@ -1,0 +1,18 @@
+### setting
+git config --global user.email "hub.of.all@gmail.com"
+git config --global user.name "east-sea"
+
+## add new file
+git init
+git add cocotb.pdf
+git commit -m 'First commit'
+
+## add
+git remote add origin https://github.com/east-sea/coco_learn.git
+git push -u origin master
+
+mkdir git_temp
+cd git_temp/
+
+## get /checkout 
+git clone https://github.com/east-sea/coco_learn.git
