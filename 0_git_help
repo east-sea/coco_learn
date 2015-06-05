@@ -22,3 +22,15 @@ git clone https://github.com/east-sea/coco_learn.git
 git config --global credential.helper cache
 # 1hour :
 git config --global credential.helper 'cache --timeout=3600'
+
+
+## 
+git has a concept of "remotes" - these are like easy nicknames for a repository, 
+so you don't have to use its full URL every time you want to refer to another repository.
+
+'origin' is just a remote like any other, but you see it very frequently since 
+when you clone a repository for the first time, git clone will by default set up a remote called origin 
+to refer to the URL that you cloned from.
+
+If you do git remote -v that will show you all the remotes you have set up in 
+your local repository, and the URLs that they refer to. 
